@@ -108,7 +108,37 @@ console.log(fizzBuzz(30)); // "fizzbuzz"
 console.log(fizzBuzz(8)); // 8
 ```
 
-## Ejercicio 7 - Número de aes (letra "a")
+## Ejercicio 7 - Contar rango de números
+
+Escribir una función llamada `contarRango` que reciba dos números y retorne cuántos números que hay entre ellos (excluyéndolos):
+
+**Nota:** Utiliza un ciclo en tu solución. Puedes asumir que el primer número va a ser menor que el segundo.
+
+```javascript
+// escribe tu respuesta acá
+
+// código de prueba
+console.log(contarRango(1, 9)) // 7
+console.log(contarRango(1332, 8743)) // 7410
+console.log(contarRango(5, 6)) // 0
+```
+
+## Ejercicio 8 - Sumar rango de números
+
+Escribir una función llamada `sumarRango` que reciba dos argumentos: número inicial y número final. La función debe retornar la suma de los números en ese rango (incluyéndolos).
+
+**Nota:** puedes asumir que el número inicial va a ser menor o igual que el número final.
+
+```javascript
+// escribe tu respuesta acá
+
+// código de prueba
+console.log(sumarRango(0, 10)) // 55
+console.log(sumarRango(12, 14)) // 39
+console.log(sumarRango(5, 5)) // 0
+```
+
+## Ejercicio 9 - Número de aes (letra "a")
 
 Escribir una función llamada `numeroDeAes` que reciba un string y retorne el número de veces que aparece la letra "a":
 
@@ -121,7 +151,7 @@ console.log(numeroDeAes("etinol")) // 0
 console.log(numeroDeAes("")) // 0
 ```
 
-## Ejercicio 8 - Número de caracteres
+## Ejercicio 10 - Número de caracteres
 
 Escribir una función llamada `numeroDeCaracteres` que reciba un string y un caracter (un string de un caracter). La función debe retornar el número de veces que aparece el caracter en el string.
 
@@ -134,7 +164,7 @@ console.log(numeroDeCaracteres("MMMMM", "m")) // 0
 console.log(numeroDeCaracteres("eeee", e)) // 4
 ```
 
-## Ejercicio 9 - Sumar arreglo
+## Ejercicio 11 - Sumar arreglo
 
 Escribir una función llamada `sumarArreglo` que reciba un arreglo de números y retorne la suma de todos los elementos.
 
@@ -147,7 +177,7 @@ console.log(sumarArreglo([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) // 55
 console.log(sumarArreglo([])) // 0
 ```
 
-## Ejercicio 10 - Multiplicar arreglo
+## Ejercicio 12 - Multiplicar arreglo
 
 Escribir una función llamada `multiplicarArreglo` que reciba un arreglo de números y retorne la multiplicación de todos los elementos.
 
@@ -160,7 +190,7 @@ console.log(multiplicarArreglo([1, 2, 3, 4, 5, 6, 7, 8])) // 40320
 console.log(multiplicarArreglo([])) // 1
 ```
 
-## Ejercicio 11 - Remover ceros
+## Ejercicio 13 - Remover ceros
 
 Escribir una función llamada `removerCeros` que reciba un arreglo de números y retorne un nuevo arreglo excluyendo los ceros (0).
 
@@ -172,3 +202,41 @@ console.log(removerCeros([0, 1, 0, 2, 0, 3])) // [1, 2, 3]
 console.log(removerCeros([9, 3, 6, 4])) // [9, 3, 6, 4]
 console.log(removerCeros([0, 0, 0])) // []
 ```
+
+## Ejercicio 14 - Sumar arreglo entre el rango
+
+Escribir una función llamada `sumarArreglo` que reciba tres argumentos: un arreglo de números, la posición inicial y la posición final. La función debe retornar la suma de todos los números dentro del rango (la posición inicial y la posición final, incluyéndolas).
+
+**Nota:** puedes asumir que la posición inicial va a ser menor o igual a la posición final, y que están dentro de los límites del arreglo.
+
+```javascript
+// escribe tu respuesta acá
+
+// código de prueba
+console.log(sumarArreglo([1, 2, 3], 1, 2)) // 5
+console.log(sumarArreglo([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3, 6)) // 22
+console.log(sumarArreglo([7, 8, 9], 0, 0)) // 0
+```
+
+## Ejercicio 15 - Transcribir ADN a ARN
+
+Escribir una función llamada `transcribir` que reciba un string (una cadena de ADN) y retorne otro string (su complemento ARN).
+
+Los complementos son los siguientes:
+
+* G -> C
+* C -> G
+* T -> A
+* A -> U
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(transcribir("ACGT")) // UGCA
+console.log(transcribir("ACGTGGTCTTAA")) // UGCACCAGAAUU
+```
+
+
+
+
