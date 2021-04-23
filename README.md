@@ -312,3 +312,65 @@ console.log(password("hola")) // "h0l4"
 console.log(password("esta es una prueba")) // "3st43sun4pru3b4"
 console.log(password("")) // ""
 ```
+
+## Ejercicio 21 - Encontrar números pares en un arreglo
+
+Escribir una función llamada `pares` que reciba un arreglo de números y retorne un nuevo arreglo con los números pares únicamente.
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(pares([1, 2, 3, 4, 5, 6])) // [2, 4, 6]
+console.log(pares([])) // []
+```
+
+## Ejercicio 22 - Encontrar posiciones de números pares
+
+Escribir una función llamada `posiciones` que reciba un arreglo de números y retorne un nuevo arreglo **con las posiciones** donde se encuentran números pares.
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(posiciones([1, 2, 3, 4, 5, 6])) // [1, 3, 5]
+console.log(posiciones([])) // []
+```
+
+## Ejercicio 23 - Duplicar elementos de un arreglo
+
+Escribir una función llamada `duplicar` que reciba un arreglo de números y retorne un nuevo arreglo donde cada número esté multiplicado por dos (2).
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(duplicar([1, 2, 3])) // [2, 4, 6]
+console.log(duplicar([])) // []
+```
+
+## Ejercicio 24 - Encontrar palabras que empiecen por "a"
+
+Escribir una función llamada `empiezanConA` que reciba un arreglo de strings y retorne un nuevo arreglo con todas las palabras que empiecen por "a" (mayúscula o minúscula).
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(empiezanConA(["beta", "alfa", "Arbol", "gama"])) // ["alfa", "Arbol"]
+console.log(empiezanConA(["beta", "delta", "gama"])) // []
+console.log(empiezanConA([])) // []
+```
+
+## Ejercicio 25 - Encontrar palabras que terminan en "s"
+
+Escribir una función llamada `terminanConS` que reciba un arreglo de strings y retorne un nuevo arreglo con todas las palabras que terminan con "s" (mayúscula o minúscula).
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(terminanConS(["pruebas", "arroz", "árbol", "tokens"])) // ["pruebas", "tokens"]
+console.log(terminanConS(["beta", "delta", "gama"])) // []
+console.log(terminanConS([])) // []
+```
