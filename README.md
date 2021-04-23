@@ -2,7 +2,7 @@
 
 Esta es una lista de 100 ejercicios de JavaScript para personas que están empezando con programación. Para hacer estos ejercicios deberás conocer los siguientes conceptos: tipos y operadores, variables, condicionales, ciclos, strings, arreglos, funciones y objetos literales. Si aún no los conoces te recomendamos primero ver [los videos de esta lista en YouTube](https://www.youtube.com/playlist?list=PLxyfMWnjW2kvB-INxVmGBjdqdCjxOjV8A). 
 
-## Ejercicio 1 - Contraseña válida
+## 1. Contraseña válida
 
 Escribir una función llamada `contrasenaValida` que reciba un string y retorne `true` si el string es igual a "2Fj(jjbFsuj" o "eoZiugBf&g9". De lo contrario debe retornar `false`.
 
@@ -15,7 +15,7 @@ console.log("hola") // false
 console.log() // false
 ```
 
-## Ejercicio 2 - Calcular impuestos
+## 2. Calcular impuestos
 
 Escribir una función llamada `calcularImpuestos` que reciba dos argumentos numéricos: `edad` e `ingresos`. Si `edad` es igual o mayor a 18 y los ingresos son iguales o mayores a 1000 debe retornar `ingresos` * 40%. De lo contrario retornar 0.
 
@@ -28,7 +28,7 @@ console.log(17, 5000) // 0
 console.log(30, 500) // 0
 ```
 
-## Ejercicio 3 - IMC (ïndice de masa corporal)
+## 3. IMC (ïndice de masa corporal)
 
 El índice de masa corporal (IMC), o BMI por sus siglas en inglés, es un valor que determina la cantidad de grasa de una persona.
 
@@ -51,7 +51,7 @@ console.log(bmi(52, 1.75)) //  "Bajo de peso"
 console.log(bmi(135, 1.7)) // "Obeso"
 ```
 
-## Ejercicio 4 - Imprimir un arreglo
+## 4. Imprimir un arreglo
 
 Escribir una función llamada `imprimirArreglo` que reciba un arreglo e imprima cada elemento en una línea a parte:
 
@@ -66,7 +66,7 @@ console.log(imprimirArreglo(1, "Hola", 2, "Mundo"))
 // Mundo
 ```
 
-## Ejercicio 5 - Número de Likes
+## 5. Número de Likes
 
 Escribe una función llamada `likes` que reciba un número y retorne un string utilizando el formato de K para miles y M para millones.
 
@@ -89,7 +89,7 @@ console.log(likes(120800)) // "120K"
 console.log(likes(25222444)) // "25M"
 ```
 
-## Ejercicio 6 - FizzBuzz
+## 6. FizzBuzz
 
 Escribir una función llamada `fizzBuzz` que reciba un número y retorne un string de acuerdo a lo siguiente:
 
@@ -108,7 +108,7 @@ console.log(fizzBuzz(30)); // "fizzbuzz"
 console.log(fizzBuzz(8)); // 8
 ```
 
-## Ejercicio 7 - Contar rango de números
+## 7. Contar rango de números
 
 Escribir una función llamada `contarRango` que reciba dos números y retorne cuántos números que hay entre ellos (excluyéndolos):
 
@@ -123,7 +123,7 @@ console.log(contarRango(1332, 8743)) // 7410
 console.log(contarRango(5, 6)) // 0
 ```
 
-## Ejercicio 8 - Sumar rango de números
+## 8. Sumar rango de números
 
 Escribir una función llamada `sumarRango` que reciba dos argumentos: número inicial y número final. La función debe retornar la suma de los números en ese rango (incluyéndolos).
 
@@ -138,7 +138,7 @@ console.log(sumarRango(12, 14)) // 39
 console.log(sumarRango(5, 5)) // 0
 ```
 
-## Ejercicio 9 - Número de aes (letra "a")
+## 9. Número de aes (letra "a")
 
 Escribir una función llamada `numeroDeAes` que reciba un string y retorne el número de veces que aparece la letra "a":
 
@@ -151,7 +151,7 @@ console.log(numeroDeAes("etinol")) // 0
 console.log(numeroDeAes("")) // 0
 ```
 
-## Ejercicio 10 - Número de caracteres
+## 10. Número de caracteres
 
 Escribir una función llamada `numeroDeCaracteres` que reciba un string y un caracter (un string de un caracter). La función debe retornar el número de veces que aparece el caracter en el string.
 
@@ -164,7 +164,7 @@ console.log(numeroDeCaracteres("MMMMM", "m")) // 0
 console.log(numeroDeCaracteres("eeee", e)) // 4
 ```
 
-## Ejercicio 11 - Sumar arreglo
+## 11. Sumar arreglo
 
 Escribir una función llamada `sumarArreglo` que reciba un arreglo de números y retorne la suma de todos los elementos.
 
@@ -177,7 +177,7 @@ console.log(sumarArreglo([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])) // 55
 console.log(sumarArreglo([])) // 0
 ```
 
-## Ejercicio 12 - Multiplicar arreglo
+## 12. Multiplicar arreglo
 
 Escribir una función llamada `multiplicarArreglo` que reciba un arreglo de números y retorne la multiplicación de todos los elementos.
 
@@ -190,7 +190,7 @@ console.log(multiplicarArreglo([1, 2, 3, 4, 5, 6, 7, 8])) // 40320
 console.log(multiplicarArreglo([])) // 1
 ```
 
-## Ejercicio 13 - Remover ceros
+## 13. Remover ceros
 
 Escribir una función llamada `removerCeros` que reciba un arreglo de números y retorne un nuevo arreglo excluyendo los ceros (0).
 
@@ -203,7 +203,7 @@ console.log(removerCeros([9, 3, 6, 4])) // [9, 3, 6, 4]
 console.log(removerCeros([0, 0, 0])) // []
 ```
 
-## Ejercicio 14 - Sumar arreglo entre el rango
+## 14. Sumar arreglo entre el rango
 
 Escribir una función llamada `sumarArreglo` que reciba tres argumentos: un arreglo de números, la posición inicial y la posición final. La función debe retornar la suma de todos los números dentro del rango (la posición inicial y la posición final, incluyéndolas).
 
@@ -218,7 +218,7 @@ console.log(sumarArreglo([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3, 6)) // 22
 console.log(sumarArreglo([7, 8, 9], 0, 0)) // 0
 ```
 
-## Ejercicio 15 - Transcribir ADN a ARN
+## 15. Transcribir ADN a ARN
 
 Escribir una función llamada `transcribir` que reciba un string (una cadena de ADN) y retorne otro string (su complemento ARN).
 
@@ -237,7 +237,7 @@ console.log(transcribir("ACGT")) // "UGCA"
 console.log(transcribir("ACGTGGTCTTAA")) // "UGCACCAGAAUU"
 ```
 
-## Ejercicio 16 - Capitalizar palabra
+## 16. Capitalizar palabra
 
 Escribir una función llamada `capitalizar` que reciba un string y capitalice la primera letra:
 
@@ -250,7 +250,7 @@ console.log(capitalizar("hola mundo")) // "Hola mundo"
 console.log(capitalizar("")) // ""
 ```
 
-## Ejercicio 17 - Capitalizar cada palabra
+## 17. Capitalizar cada palabra
 
 Escribir una función llamada `capitalizar` que reciba un string y capitalice la primera letra **de cada palabra**:
 
@@ -263,7 +263,7 @@ console.log(capitalizar("make it real")) // "Make It Real"
 console.log(capitalizar("")) // ""
 ```
 
-## Ejercicio 18 - Encontrar el número máximo
+## 18. Encontrar el número máximo
 
 Escribir una función llamada `max` que reciba un arreglo de números y retorne el número máximo:
 
@@ -278,7 +278,7 @@ console.log(max([67, 35, 54, 26])) // 67
 console.log(max([5, 9, 2, 4, 5, 7])) // 9
 ```
 
-## Ejercicio 19 - Encontrar el número mínimo
+## 19. Encontrar el número mínimo
 
 Escribir una función llamada `min` que reciba un arreglo de números y retorne el número mínimo:
 
@@ -293,7 +293,7 @@ console.log(min([67, 35, 54, 26])) // 26
 console.log(min([5, 9, 2, 4, 5, 7])) // 2
 ```
 
-## Ejercicio 20 - Generar contraseña
+## 20. Generar contraseña
 
 Escribir una función llamada `password` que reciba un string y retorne un nuevo string realizando los siguientes cambios:
 
@@ -313,7 +313,7 @@ console.log(password("esta es una prueba")) // "3st43sun4pru3b4"
 console.log(password("")) // ""
 ```
 
-## Ejercicio 21 - Encontrar números pares en un arreglo
+## 21. Encontrar números pares en un arreglo
 
 Escribir una función llamada `pares` que reciba un arreglo de números y retorne un nuevo arreglo con los números pares únicamente.
 
@@ -325,7 +325,7 @@ console.log(pares([1, 2, 3, 4, 5, 6])) // [2, 4, 6]
 console.log(pares([])) // []
 ```
 
-## Ejercicio 22 - Encontrar posiciones de números pares
+## 22. Encontrar posiciones de números pares
 
 Escribir una función llamada `posiciones` que reciba un arreglo de números y retorne un nuevo arreglo **con las posiciones** donde se encuentran números pares.
 
@@ -337,7 +337,7 @@ console.log(posiciones([1, 2, 3, 4, 5, 6])) // [1, 3, 5]
 console.log(posiciones([])) // []
 ```
 
-## Ejercicio 23 - Duplicar elementos de un arreglo
+## 23. Duplicar elementos de un arreglo
 
 Escribir una función llamada `duplicar` que reciba un arreglo de números y retorne un nuevo arreglo donde cada número esté multiplicado por dos (2).
 
@@ -349,7 +349,7 @@ console.log(duplicar([1, 2, 3])) // [2, 4, 6]
 console.log(duplicar([])) // []
 ```
 
-## Ejercicio 24 - Encontrar palabras que empiecen por "a"
+## 24. Encontrar palabras que empiecen por "a"
 
 Escribir una función llamada `empiezanConA` que reciba un arreglo de strings y retorne un nuevo arreglo con todas las palabras que empiecen por "a" (mayúscula o minúscula).
 
@@ -362,7 +362,7 @@ console.log(empiezanConA(["beta", "delta", "gama"])) // []
 console.log(empiezanConA([])) // []
 ```
 
-## Ejercicio 25 - Encontrar palabras que terminan en "s"
+## 25. Encontrar palabras que terminan en "s"
 
 Escribir una función llamada `terminanConS` que reciba un arreglo de strings y retorne un nuevo arreglo con todas las palabras que terminan con "s" (mayúscula o minúscula).
 
@@ -373,4 +373,53 @@ Escribir una función llamada `terminanConS` que reciba un arreglo de strings y 
 console.log(terminanConS(["pruebas", "arroz", "árbol", "tokens"])) // ["pruebas", "tokens"]
 console.log(terminanConS(["beta", "delta", "gama"])) // []
 console.log(terminanConS([])) // []
+```
+
+## 26. Imprimir una matriz
+
+Escribir una función llamada `imprimirMatriz` que reciba una matriz (un arreglo de arreglos) e imprima todos los elementos del arreglo.
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(imprimirMatriz([
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]))
+
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+// 9
+```
+
+## 27. Traducir números a palabras
+
+Escribir una función llamada `numerosAPalabras` que reciba un arreglo de números (cada número en el rango de 0 a 0) y retorne un nuevo arreglo convirtiendo cada número a su versión en palabras.
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(numerosAPalabras([0, 1, 2, 3, 4])) // ["cero", "uno", "dos", "tres", "cuatro"]
+console.log(numerosAPalabras([5, 6, 7, 8, 9])) // ["cinco", "seis", "siete", "ocho", "nueve"]
+```
+
+## 28. Traducir palabras a números
+
+Escribir una función llamada `palabrasANumeros` que reciba un arreglo de strings y retorne un nuevo arreglo traduciendo cada palabra a su versión numérica (del 0 al 9). Si la palabra no es un número traducir a -1.
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(["cero", "uno", "dos", "tres", "what?", "cuatro"]) // [0, 1, 2, 3, -1, 4]
+console.log(["cinco", "seis", "siete", "ocho", "nueve"]) // [5, 6, 7, 8, 9]
 ```
