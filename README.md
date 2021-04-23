@@ -233,10 +233,82 @@ Los complementos son los siguientes:
 // escribe tu función acá
 
 // código de prueba
-console.log(transcribir("ACGT")) // UGCA
-console.log(transcribir("ACGTGGTCTTAA")) // UGCACCAGAAUU
+console.log(transcribir("ACGT")) // "UGCA"
+console.log(transcribir("ACGTGGTCTTAA")) // "UGCACCAGAAUU"
 ```
 
+## Ejercicio 16 - Capitalizar palabra
 
+Escribir una función llamada `capitalizar` que reciba un string y capitalice la primera letra:
 
+```javascript
+// escribe tu función acá
 
+// código de prueba
+console.log(capitalizar("pedro")) // "Pedro"
+console.log(capitalizar("hola mundo")) // "Hola mundo"
+console.log(capitalizar("")) // ""
+```
+
+## Ejercicio 17 - Capitalizar cada palabra
+
+Escribir una función llamada `capitalizar` que reciba un string y capitalice la primera letra **de cada palabra**:
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(capitalizar("hola mundo")) // "Hola Mundo"
+console.log(capitalizar("make it real")) // "Make It Real"
+console.log(capitalizar("")) // ""
+```
+
+## Ejercicio 18 - Encontrar el número máximo
+
+Escribir una función llamada `max` que reciba un arreglo de números y retorne el número máximo:
+
+**Nota:** Intentarlo hacer sin el método `Math.max` de JavaScript.
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(max([3, 9, 6])) // 9
+console.log(max([67, 35, 54, 26])) // 67
+console.log(max([5, 9, 2, 4, 5, 7])) // 9
+```
+
+## Ejercicio 19 - Encontrar el número mínimo
+
+Escribir una función llamada `min` que reciba un arreglo de números y retorne el número mínimo:
+
+**Nota:** Intentarlo hacer sin el método `Math.min` de JavaScript.
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(min([3, 9, 6])) // 3
+console.log(min([67, 35, 54, 26])) // 26
+console.log(min([5, 9, 2, 4, 5, 7])) // 2
+```
+
+## Ejercicio 20 - Generar contraseña
+
+Escribir una función llamada `password` que reciba un string y retorne un nuevo string realizando los siguientes cambios:
+
+* Las mayúsculas se reemplazan por minúsculas.
+* Se eliminan los espacios en blanco.
+* Reemplaza el caracter “a” por “4”.
+* Reemplaza el caracter “e” por “3”.
+* Reemplaza el caracter “i” por “1”.
+* Reemplaza el carater “o” por “0”.
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(password("hola")) // "h0l4"
+console.log(password("esta es una prueba")) // "3st43sun4pru3b4"
+console.log(password("")) // ""
+```
