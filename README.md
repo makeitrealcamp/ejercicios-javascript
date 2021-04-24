@@ -1,6 +1,8 @@
 # Ejercicios de JavaScript
 
-Esta es una lista de 100 ejercicios de JavaScript para personas que están empezando con programación. Para hacer estos ejercicios deberás conocer los siguientes conceptos: tipos y operadores, variables, condicionales, ciclos, strings, arreglos, funciones y objetos literales. Si aún no los conoces te recomendamos primero ver [los videos de esta lista en YouTube](https://www.youtube.com/playlist?list=PLxyfMWnjW2kvB-INxVmGBjdqdCjxOjV8A). 
+Esta es una lista de ejercicios de JavaScript para personas que están empezando con programación. Como requisito para hacer estos ejercicios debes conocer conceptos básicos de JavaScript como tipos y operadores, variables, condicionales, ciclos, strings, arreglos, funciones y objetos literales. Si aún no los conoces te recomendamos primero ver [los videos de esta lista en YouTube](https://www.youtube.com/playlist?list=PLxyfMWnjW2kvB-INxVmGBjdqdCjxOjV8A).
+
+Los ejercicios son un trabajo en progreso constante. Para contribuir puedes abrir un [Issue](https://github.com/makeitrealcamp/ejercicios-javascript/issues) (en caso de que quieras reportar un problema) o un [Pull Request](https://github.com/makeitrealcamp/ejercicios-javascript/pulls) (en caso de que quieras contribuir un cambio o un ejercicio).
 
 ## 1. Contraseña válida
 
@@ -422,4 +424,33 @@ Escribir una función llamada `palabrasANumeros` que reciba un arreglo de string
 // código de prueba
 console.log(["cero", "uno", "dos", "tres", "what?", "cuatro"]) // [0, 1, 2, 3, -1, 4]
 console.log(["cinco", "seis", "siete", "ocho", "nueve"]) // [5, 6, 7, 8, 9]
+```
+
+## 29. Número de asteriscos en un arreglo
+
+Escribir una función llamada `numAsteriscos` que reciba un arreglo y retorne el número de asteriscos:
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(numAsteriscos(['', '*', '', '*'])) // 2
+console.log(numAsteriscos(['*', '*', '*'])) // 3
+console.log(numAsteriscos([])) // 0
+```
+
+## 30. Número de asteriscos en una matriz
+
+Escribir una función llamada `numAsteriscos` que reciba una matriz (un arreglo de arreglos) y retorne el número de asteriscos:
+
+```javascript
+// escribe tu función acá
+
+// código de prueba
+console.log(numAsteriscos([
+  ['*', '', '*'],
+  ['', '*', ''],
+  ['*', '', '*']
+]))
+// 5
 ```
