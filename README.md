@@ -11,10 +11,11 @@ Escribir una función llamada `contrasenaValida` que reciba un string y retorne 
 ```javascript
 // escribe tu respuesta acá
 
-console.log("2Fj(jjbFsuj") // true
-console.log("eoZiugBf&g9") // true
-console.log("hola") // false
-console.log() // false
+// código de prueba
+console.log(contrasenaValida("2Fj(jjbFsuj")) // true
+console.log(contrasenaValida("eoZiugBf&g9")) // true
+console.log(contrasenaValida("hola")) // false
+console.log(contrasenaValuda("")) // false
 ```
 
 ## 2. Calcular impuestos
@@ -24,10 +25,11 @@ Escribir una función llamada `calcularImpuestos` que reciba dos argumentos num�
 ```javascript
 // escribe tu respuesta acá
 
-console.log(18, 1000) // 400
-console.log(40, 10000) // 4000
-console.log(17, 5000) // 0
-console.log(30, 500) // 0
+// código de prueba
+console.log(calcularImpuestos(18, 1000)) // 400
+console.log(calcularImpuestos(40, 10000)) // 4000
+console.log(calcularImpuestos(17, 5000)) // 0
+console.log(calcularImpuestos(30, 500)) // 0
 ```
 
 ## 3. IMC (ïndice de masa corporal)
